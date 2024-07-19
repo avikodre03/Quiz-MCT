@@ -1,11 +1,14 @@
 
 import './App.css';
-import QuizComp from './Components/QuizComp/QuizComp';
+import Quiz from './Components/Quiz/Quiz';
+
 
 function App() {
   return (
     <div className="App">
-    <QuizComp/>
+    
+    <Quiz/>
+    
     </div>
   );
 }
